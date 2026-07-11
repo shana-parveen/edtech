@@ -88,11 +88,11 @@ export default function RequirementsField({
       )}
 
       {/* Error message */}
-      {errors[name] && (
+      {/* {errors[name] && (
         <span className="ml-2 text-xs text-pink-200">
           {label} is required
         </span>
-      )}
+      )} */}
     </div>
   )
 }
