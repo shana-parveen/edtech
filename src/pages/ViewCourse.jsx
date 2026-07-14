@@ -26,7 +26,7 @@ const ViewCourse = () => {
               dispatch(setTotalNoOfLectures(lectures));
         }
         setCourseSpecificDetails();
-    },[]);
+    },[courseId]);
 
 
   return (

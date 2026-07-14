@@ -5,7 +5,7 @@ import { resetCart } from "../../slices/cartSlice"
 import { setUser } from "../../slices/profileSlice"
 import { apiConnector } from "../apiconnector"
 import { endpoints } from "../apis"
-import axios from "axios"
+// import axios from "axios"
 import { Spinner } from "../../components/Common/Spinner"
 
 const {
